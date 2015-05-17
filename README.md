@@ -26,21 +26,34 @@ Within your working directory, you must have a subdirectory called
 ##SCRIPT
 
 run_analysis.R performs the following tasks: 
+
 1. Reads all necessary files from UCI HAR Datasets and subdirectories
+
 2. Extracts only the variables corresponding to mean and std calculations on the features
+
 3. Combines the train and test data sets into one data set containing the entire population 
+
 4. Adds meaningful column names and activity labels
+
 5. Summarizes the results as the mean of each feature, grouped by subject_id and activity
+
 6. Renames the columns to indicate that they represent the mean of each feature
+
 7. Writes the summary table as a text file called summary_results.txt within UCI HAR Datasets directory
 
 ###Usage: 
+```
 > source("run_analysis.R") 
+```
 
 ###Output: 
-"UCI HAR Dataset/summary_results.txt". To read this file into R, use 
+```
+"UCI HAR Dataset/summary_results.txt"
+```
+To read this file into R, use 
+```
 mydata <- read.table("UCI HAR Dataset/summary_results.txt", header=TRUE)
-
+```
 
 
 ####License:
