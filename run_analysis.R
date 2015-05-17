@@ -1,4 +1,4 @@
-## Read all input data files. Stop with an error if any file does not exist. 
+## Read all input data files. Stop with an error if any file doesn't exist. 
 
 if (file.exists("UCI HAR Dataset/activity_labels.txt")){
    activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt", 
