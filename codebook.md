@@ -6,6 +6,8 @@ values of 66 features, grouped by subject\_id and activity. The names of variabl
 Refer to "UCI HAR Dataset/features\_info.txt" for more information about the 
 underlying features. 
 
+**NOTE: Features in variables 3-68 are normalized and bounded within [-1,1].**
+
 1. **subject_id:** integer from 1 to 30
       
 2. **activity:**
