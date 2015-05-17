@@ -22,6 +22,8 @@ Within your working directory, you must have a subdirectory called
 - **test/y_test.txt**: Each row identifies the activity for each window sample. Its range is from 1 to 6.
 - **test/subject_test.txt**: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
+If you do not already have the data, you can download it here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. 
+Then unzip the file and make sure the directory called "UCI HAR Dataset" resides in your working directory.
 
 ##SCRIPT
 
